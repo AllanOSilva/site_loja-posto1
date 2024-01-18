@@ -92,8 +92,9 @@ header .container {
 
 #about .container p {
     margin-bottom: 8px;
-    margin-right: 10px;
     
+p {
+    margin-right: 10px;
 }
 
 .store-front {
