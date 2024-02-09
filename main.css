@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+hr{
+   height: 2px;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+ .menus{
+    display: none;
+ }
+
+
+.container-flex {
+    display: flex;
+}
+.menu-hamburger{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburger span{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+
+}
+
 header , 
 #about .container h2,
 #contact h2,
