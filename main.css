@@ -14,14 +14,15 @@
     color: white;
 }
 
+
+
 section{
-    height: 100vh;
-    ;
+    
     padding-top: 70px;
 }
 
 hr{
-   height: 2px;
+   font-size: bold;
 }
 
 header , 
@@ -64,15 +65,13 @@ header{
     margin-bottom: 8px;
 }
 
-#category{
-    margin-top: 35px;
-}
+
 
 .social-links img {
     height: 24px;
 }
 
-.social-links li {
+.social-links li{
     display: inline;
     margin-right: 8px;
 }
@@ -88,11 +87,20 @@ header{
 
 #contact  {
     display: block;
+    padding: 0, 8px;
 }
 
 .contact-methods {
     display: flex;
-    justify-content: space-between;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .contact-methods {
+        display: block;
+        padding-left: 8px;
+        
+    }
 }
 
 form input,
