@@ -3,9 +3,6 @@ $(document).ready(function(){
         placeholder:'(__) _____-____'
     })
 
-    $('.menu-hamburger').click(function(){
-        $('.menus').slideToggle();
-        
-        })
+   
 })
 
