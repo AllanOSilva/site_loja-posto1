@@ -66,6 +66,9 @@ header{
             background-color: #182c61;
             color: #ecf0f1;
 }
+#cabecalho nav-link{
+    color: white;
+}
 /*
 header nav li {
     display: inline;
