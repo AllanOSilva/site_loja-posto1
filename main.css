@@ -1,40 +1,29 @@
-*{
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.navbar-nav .nav-link.active{
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-link{
+    
+    text-align: center;
+}
+
+.nav-link a{
+    color: white;
+}
+
+section{
+    height: 100vh;
+    ;
+    padding-top: 70px;
 }
 
 hr{
    height: 2px;
 }
-/*
-.container{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
- .menus{
-    display: none;
- }
 
-
-.container-flex {
-    display: flex;
-}
-.menu-hamburger{
-    width: 32px;
-    cursor: pointer;
-}
-
-.menu-hamburger span{
-    height: 2px;
-    width: 100%;
-    background-color: white;
-    display: block;
-    margin-bottom: 4px;
-
-}
-*/
 header , 
 #about .container h2,
 #contact h2,
@@ -44,9 +33,7 @@ form button {
     font-weight:normal;
 }
 
-body{
-    background-color: white;
-}
+
 
 body, 
 input,
@@ -66,75 +53,19 @@ header{
             background-color: #182c61;
             color: #ecf0f1;
 }
-#cabecalho nav-link{
-    color: white;
-}
-/*
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
+
+.container{
+    display: block;
 }
 
-header nav li a {
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-header nav li a:hover {
-    color: #ecf0f1;
-    text-decoration: underline;
-}*/
-/*
-.container {
-
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
-#about{
-    color: #182c61;
-}
-
-#about .container .brands-list li img {
-    margin-right: 8px;
-}
-
-#about .container .brands-list li{
-    display: inline;
-}
-
-#about .container{
-    padding-top: 16px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 24px, 0;
-}
-
-#about .container h2 {
-    margin-bottom: 16px;
-    
-}
-
-#about .container p {
+.fachada  img{
+    height: 65vh;
+    width: 65vh;
     margin-bottom: 8px;
-    margin-right: 10px;
 }
-    
 
-
-.store-front {
-    margin-right: 32px;
+#category{
+    margin-top: 35px;
 }
 
 .social-links img {
@@ -155,7 +86,7 @@ header .container {
     
 }
 
-#contact .container {
+#contact  {
     display: block;
 }
 
@@ -163,7 +94,7 @@ header .container {
     display: flex;
     justify-content: space-between;
 }
-*/
+
 form input,
 form textarea,
 form button {
@@ -187,6 +118,7 @@ form button {
     color: #ecf0f1;
     border: none;
     cursor: pointer;
+    border-radius: 45%;
 }
 
 form button:hover {
@@ -203,7 +135,7 @@ textarea:focus{
 footer{
     background-color: #182c61;
     color: #ecf0f1;
-    padding: 16px 0;
+    
     font-weight:normal;
     font-family: 'Rubik Mono One';
 }

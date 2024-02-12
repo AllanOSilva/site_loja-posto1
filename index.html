@@ -17,40 +17,22 @@
 </head>
 <body>
     <header id="cabecalho">
-        <div class="navbar navbar-primary bg=primary">
+        <div class="navbar navbar-expand-lg bg-primary navbar-dark">
             <div class="container">
                 <h1>POSTO 1</h1> 
-                <button type="button" class="navbar-toggler navbar-toggler-light bg-light"><span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu"></span></button>
-                <nav class="collapse navbar-collapse justify-content-between" id="menu">
-                    <ul class="nav nav-pills navbar-nav color-light">
+                <button type="button" class="navbar-toggler navbar-toggler-dark"><span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu"></span></button>
+                <nav class="collapse navbar-collapse " id="menu">
+                    <ul class="nav nav-pills navbar-nav ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#about">Sobre a loja</a>
+                            <a class="nav-link" href="#inicio">inicio</a>
                         </li>
-                        <div class="container">
-                            <div class="dropdown btn-group">
-                                <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                                    Categorias
-                                </button>                           
-                                <ul class="dropdown-menu dropdown-menu-lg-right">
-                                    <li class="dropdown-item">
-                                        <a href="#">Carregadores</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Películas</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Capas</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Caixas de Som</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Acessórios</a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#category">Categorias</a>
+                        </li>                        
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contatos</a>
                         </li>
@@ -58,28 +40,35 @@
             </div>
         </div>
     </header>
-    <section id="about">
-        <div class="container col col-md-8 col-sm-12">
-            <img width=400px class="store-front" src="imagens/Fachada.jpg" alt="Fachada do posto de testes">
-            <div>
-                <h2>Sobre a loja</h2>
-                <hr>
-                <p>
-                    Potencialize sua vida com os melhores acessórios eletrônicos na nossa loja! Da praticidade de fones de ouvido sem fio à versatilidade de carregadores portáteis, temos tudo o que você precisa para otimizar sua experiência digital. Explore as últimas inovações e mergulhe no universo dos gadgets essenciais. Garantimos qualidade, tecnologia de ponta e preços irresistíveis. Não deixe seu mundo digital esperando, visite-nos agora e eleve sua conectividade a um novo patamar!
-                </p>
-                <p>
-                    Transforme sua experiência com eletrônicos! Na nossa loja, oferecemos mais do que produtos, proporcionamos soluções. Com especialistas prontos para orientar e serviços excepcionais, garantimos que cada compra seja uma experiência sem complicações. Estamos aqui para tornar a tecnologia mais acessível e fácil para você. Descubra um novo padrão de serviço em eletrônicos – sua satisfação é a nossa prioridade!
-                </p>
-                
+    <section id="inicio">
+        <h2>Inicio</h2>
+    </section>
+    <section class="container-fluid" id="about">
+        <div class="row fachada">
+            <div class="container col">
+                <img class="store-front" src="imagens/Fachada.jpg" alt="Fachada do posto de testes">
+            <div class="col">
+                    <h2>Sobre a loja</h2>
+                    <hr>
+                    <p>
+                        Potencialize sua vida com os melhores acessórios eletrônicos na nossa loja! Da praticidade de fones de ouvido sem fio à versatilidade de carregadores portáteis, temos tudo o que você precisa para otimizar sua experiência digital. Explore as últimas inovações e mergulhe no universo dos gadgets essenciais. Garantimos qualidade, tecnologia de ponta e preços irresistíveis. Não deixe seu mundo digital esperando, visite-nos agora e eleve sua conectividade a um novo patamar!
+                    </p>
+                    <p>
+                        Transforme sua experiência com eletrônicos! Na nossa loja, oferecemos mais do que produtos, proporcionamos soluções. Com especialistas prontos para orientar e serviços excepcionais, garantimos que cada compra seja uma experiência sem complicações. Estamos aqui para tornar a tecnologia mais acessível e fácil para você. Descubra um novo padrão de serviço em eletrônicos – sua satisfação é a nossa prioridade!
+                    </p>                 
+            </div>
             </div>
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
+    <section class="row" id="category">
+        <h2>Categorias</h2>
+    </section>
+    <section class="row" id="contact">
+        <div class=" col container-fluid">
+            
+            <div class="col contact-methods">
                 <div>
-                    <h3>Fale conosco</h3>
+                    <h3>cadastro</h3>
                     <form action="https://api.sheetmonkey.io/form/9AtWjx6zk25KdQSBzToayJ" method="post">
                         <input type="text" name="Name" placeholder="Seu Nome" required />
                         <input type="tel" name="Mobile Phone" id="telefone" required />
@@ -88,7 +77,7 @@
                         <button type="submit" onclick="submitForm()">Enviar</button>
                     </form>
                 </div>
-                <div>
+                <div class="col">
                     <h3>Nos acompanhe</h3>
                     <ul class="social-links">
                         <li>
@@ -109,7 +98,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="col">
                     <h3>Venha até nós</h3>
                     <p>
                         Avenida Marechal Fontinelli 3555,<br> dentro do hipermercado Carrefour,<br> ao lado da Estácio de Sá  
@@ -123,7 +112,6 @@
             <p>
                 &copy; Todos os direitos reservados - 2024
             </p>
-                </div>
         </div>
     </footer>
 
