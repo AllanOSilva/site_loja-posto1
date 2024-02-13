@@ -3,6 +3,18 @@ $(document).ready(function(){
         placeholder:'(__) _____-____'
     })
 
-   
+    
+
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modalExemplo = new bootstrap.Modal('#exemplo-modal');
+    setTimeout(function(){
+        modalExemplo.show();
+    },5000);
+})
+
+
+
+
 
