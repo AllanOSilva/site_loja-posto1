@@ -40,8 +40,27 @@
             </div>
         </div>
     </header>
-    <section class="carousel" id="inicio">
+    <section id="inicio">
         <h2>Inicio</h2>
+        <div id="carousel-exemplo" class="carousel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/01/07/16/00/grey-heron-8493489_1280.png">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/01/27/18/24/squirrel-8536537_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/10/25/21/04/mouse-8341314_1280.png">
+                </div>
+            </div>
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
     </section>
     <section class="container-fluid" id="about">
         <div class="row fachada">
