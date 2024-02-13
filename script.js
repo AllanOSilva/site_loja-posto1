@@ -7,14 +7,10 @@ $(document).ready(function(){
 
 })
 
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     const modalExemplo = new bootstrap.Modal('#exemplo-modal');
     setTimeout(function(){
         modalExemplo.show();
     },5000);
 })
-
-
-
-
-
+*/
