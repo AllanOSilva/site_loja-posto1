@@ -51,12 +51,17 @@ header{
     position:sticky;
             top: 0;
             left: 0;
+            z-index: 1;
             background-color: #182c61;
             color: #ecf0f1;
 }
 
 .container{
     display: block;
+}
+
+#carousel-exemplo{
+    background-color: rgba(128, 128, 128, 0.623);
 }
 
 .fachada  img{
@@ -82,13 +87,11 @@ header{
 
 #contact {
     color: #182c61;
+    display: block;
+    padding: 0, 8px;
     
 }
 
-#contact  {
-    display: block;
-    padding: 0, 8px;
-}
 
 .contact-methods {
     display: flex;
