@@ -34,6 +34,17 @@ form button {
     font-weight:normal;
 }
 
+#about{
+    background-color: aquamarine;
+}
+#category{
+    background-color: rgb(198, 218, 91);
+}
+#contact{
+    background-color: rgb(243, 146, 0);
+}
+
+
 .card-block {
     width: 100%;
     border-top-left-radius: 0;
@@ -50,6 +61,7 @@ form button {
   .card {
     margin: 20px 0;
   }
+
 
   /* Flip Cards CSS */
   .card-container {
@@ -77,11 +89,15 @@ form button {
   .card-flip .front {
     position: relative;
     z-index: 1;
+    background-color: royalblue;
+   
   }
   
   .card-flip .back {
     position: relative;
     z-index: 0;
+    background-color: royalblue;
+    color: white;
     transform: rotateY(-180deg);
   }
   
@@ -120,9 +136,14 @@ header{
 .fachada  img{
     height: 70vh;
     margin-bottom: 8px;
+    
 }
 
-
+.sobre p{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+} 
 
 .social-links img {
     height: 24px;
