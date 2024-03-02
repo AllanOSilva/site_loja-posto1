@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 
 .navbar-nav .nav-link.active{
     justify-content: space-between;
