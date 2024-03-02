@@ -152,6 +152,7 @@ header{
 
 .social-links img {
     height: 24px;
+    transition: all .5s;
 }
 
 .social-links li{
@@ -161,6 +162,10 @@ header{
 
 .social-links li a{
     text-decoration: none;
+}
+
+.social-links img:hover{
+    transform: scale(1.5);
 }
 
 #contact {
