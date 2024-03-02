@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
   }
 
+  body {
+    
+    background: linear-gradient(141deg, #1B9CFC 0%, #46aaf7da 51%, #1b9afc5d);
+  }
+
 .navbar-nav .nav-link.active{
     justify-content: space-between;
     color: white;
@@ -41,15 +46,6 @@ form button {
     font-weight:normal;
 }
 
-#about{
-    background-color: #fbc531;
-}
-#category{
-    background-color: rgb(250, 193, 8);
-}
-#contact{
-    background-color: #e1b12c;
-}
 
 
 .card-block {
@@ -137,7 +133,7 @@ header{
 }
 
 #carousel-exemplo{
-    background-color: #fdcb6e;
+    background-color: #1B9CFC;
 }
 
 .fachada  img{
