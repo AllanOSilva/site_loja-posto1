@@ -415,9 +415,12 @@
                 <div class="col m-3">
                     <h3>cadastro</h3>
                     <form action="https://api.sheetmonkey.io/form/9AtWjx6zk25KdQSBzToayJ" method="post">
-                        <input type="text" name="Name" placeholder="Seu Nome" required />
-                        <input type="tel" name="Mobile Phone" id="telefone" required />
-                        <input type="email" name="E-mail Address" placeholder="Seu Email (Opcional)" />
+                      <label for="nome">Nome Completo</label>
+                        <input type="text" name="Name"  id="nome" placeholder="Seu Nome" required />
+                        <label for="telefone">Telefone com DDD</label>
+                        <input type="tel" id="telefone" name="Mobile Phone" id="telefone" required />
+                        <label for="email">Seu melhor E-mail</label>
+                        <input type="email" id="email" name="E-mail Address" placeholder="Seu Email (Opcional)" />
                         <textarea name="Message" placeholder="Sua mensagem" ></textarea>
                         <button type="submit" onclick="submitForm()">Enviar</button>
                     </form>

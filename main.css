@@ -192,6 +192,10 @@ header{
 .contact-methods {
     display: flex;
     
+    
+}
+.contact-methods label{
+    font-weight: bold;
 }
 
 .carousel-inner img{
