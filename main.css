@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
   }
+
+  .logo{
+    height: 100px;
+    border-radius: 50%;
+  }
 .face, .insta{ visibility: hidden;}
 
   .face, .insta{
