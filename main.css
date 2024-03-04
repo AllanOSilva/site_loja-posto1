@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
   }
 
+  .face, .insta{
+    visibility: hidden;
+  }
+
   body {
     
     background: linear-gradient(141deg, #1B9CFC 0%, #46aaf7da 51%, #1b9afc5d);
