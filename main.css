@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
+.face, .insta{ visibility: hidden;}
 
   body {
     
