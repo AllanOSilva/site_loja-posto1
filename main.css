@@ -32,9 +32,13 @@ html {
     color: white;
 }
 
-.fachada{
-    
+.modal{
+    left: 0;
+}
+
+#about{
     width: 100%;
+    justify-content: center;
     text-align: center;
 }
 
