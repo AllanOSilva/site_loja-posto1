@@ -190,10 +190,7 @@ header{
     
     transform: rotate(360deg);
     transition-duration: .85s;
-    box-shadow: green 0 0 30px ;
-    border-radius: 50%;
-    
-
+    filter: drop-shadow(16px 8px 1px #009908);
 }
 
 #contact {
